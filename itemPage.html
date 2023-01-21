@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Item Page</title>
+    <!-- Import main css file -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Import font-awesome library -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Import normalize file -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Import font from google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="info">
+      <div class="container">
+        <div class="burger-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="left">
+          <span class="mail">gabooo@mail.com</span>
+          <span class="number">+12345-678-90</span>
+        </div>
+        <div class="theme">
+          <!-- <i class="fa-solid fa-sun"></i> -->
+          <div class="indicator">
+            <!-- <i class="fa-solid fa-moon"></i> -->
+          </div>
+        </div>
+        <div class="right">
+          <span class="icons">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+          </span>
+          <span class="logreg">
+            <a href="#" class="login">Login</a>
+            <a href="#" class="register">Register</a>
+          </span>
+        </div>
+      </div>
+    </div>
+    <!-- End info -->
+
+    <!-- Start intro -->
+    <div class="list">
+      <div class="container">
+        <div class="nav">
+          <ul class="links">
+            <li><a href="#">Woman</a></li>
+            <li><a href="#">Men</a></li>
+            <li><a href="#">Children</a></li>
+            <li><a href="#">Collection</a></li>
+            <li class="logo">gabooo</li>
+            <li><a href="#">Spring</a></li>
+            <li><a href="#">Summer</a></li>
+            <li><a href="#">Fall</a></li>
+            <li><a href="#">Winter</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- End intro -->
+
+    <!-- Start nav bar -->
+    <div class="nav-bar">
+      <div class="container">
+        <div class="left">
+          <div class="language">
+            <img src="./Flags/En.svg"  />
+            <span>En</span>
+            <i class="fa-sharp fa-solid fa-chevron-down"></i>
+            <div class="lang-menu">
+              <div class="one">
+                <img src="./Flags/En.svg" /><span>En</span>
+              </div>
+              <div class="two">
+                <img src="./Flags/Fr.svg" /><span>Fr</span>
+              </div>
+              <div class="three">
+                <img src="./Flags/Ru.svg" /> <span>Ru</span>
+              </div>
+            </div>
+          </div>
+          <div class="currency">
+            <span>USD</span>
+            <i class="fa-sharp fa-solid fa-chevron-down"></i>
+            <div class="currency-menu">
+              <div class="one">
+                <span>USD</span>
+              </div>
+              <div class="two">
+                <span>Euro</span>
+              </div>
+              <div class="three">
+                <span>Ruble</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="right">
+          <ul class="links">
+            <li><a href="#">Shopping Cart</a></li>
+            <li>
+              <a href="#">WishList<span>(7)</span></a>
+            </li>
+            <li><a href="#">Checkout</a></li>
+            <li><a href="#">My Account</a></li>
+            <li>
+              <div class="search-box">
+                <input type="text" placeholder="Search" />
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+            </li>
+            <li>
+              <div class="shopping-cart">
+                <div class="icon">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="value">$79.00</div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- End nav bar -->
+
+    <!-- Start item show -->
+    <div class="item-show">
+      <div class="container">
+        <div class="left">
+          <div class="big"><img src="Imgs/Coll/image 1/1.jpg" alt="" /></div>
+          <div class="boxes">
+            <div class="one"><img src="Imgs/Coll/image 1/2.jpg" alt="" /></div>
+            <div class="two"><img src="Imgs/Coll/image 1/3.jpg" alt="" /></div>
+            <div class="three">
+              <img src="Imgs/Coll/image 1/4.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="right">
+          <h3 class="title">Winter Collection - Paris Jacket</h3>
+          <div class="hr"></div>
+          <h3>$89,99</h3>
+
+          <div class="information">
+            <select name="size" class="Ssize">
+              <option value="Size" disabled selected hidden>Size</option>
+              <option value="small">Small</option>
+              <option value="medium">Medium</option>
+              <option value="large">Large</option>
+              <option value="xLarge">XLarge</option>
+            </select>
+
+            <div class="count">
+              <span class="txt">QTY</span>
+              <select name="count" class="sCount">
+                <option value="one" selected>1</option>
+                <option value="two">2</option>
+                <option value="three">3</option>
+                <option value="four">4</option>
+                <option value="five">5</option>
+                <option value="six">6</option>
+                <option value="seven">7</option>
+                <option value="eight">8</option>
+                <option value="nine">9</option>
+                <option value="ten">10</option>
+              </select>
+            </div>
+
+            <div class="color">
+              <span class="txt">COLOR</span>
+              <div class="boxesColor">
+                <div class="box One"></div>
+                <div class="box Two"></div>
+                <div class="box Three"></div>
+                <div class="box Four"></div>
+              </div>
+            </div>
+          </div>
+
+          <button class="button">Buy this item</button>
+
+          <div class="dropdown-menu">
+            <div class="detail active">
+              Detail <i class="fa-solid fa-plus plu"></i>
+              <i class="fa-sharp fa-solid fa-minus min"></i>
+            </div>
+            <div class="innerDetail">
+              Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+              Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
+              dui. Vivamus suscipit tortor eget felis porttitor volutpat.
+            </div>
+            <div class="delivery">
+              Delivery <span><i class="fa-solid fa-plus plu"></i>
+                <i class="fa-sharp fa-solid fa-minus min"></i>
+            </div>
+            <div class="innerDelivery">
+              Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+              Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
+              dui. Vivamus suscipit tortor eget felis porttitor volutpat.
+            </div>
+            <div class="style1">
+              Style <span><i class="fa-solid fa-plus plu"></i>
+                <i class="fa-sharp fa-solid fa-minus min"></i>
+            </div>
+            <div class="innerStyle1">
+              Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+              Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
+              dui. Vivamus suscipit tortor eget felis porttitor volutpat.
+            </div>
+            <div class="style2">
+              Style <span><i class="fa-solid fa-plus plu"></i>
+                <i class="fa-sharp fa-solid fa-minus min"></i>
+            </div>
+            <div class="innerStyle2">
+              Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+              Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
+              dui. Vivamus suscipit tortor eget felis porttitor volutpat.
+            </div>
+          </div>
+
+          <!-- MINUS SIGN <i class="fa-solid fa-minus"></i> -->
+        </div>
+      </div>
+    </div>
+
+    <!-- End item show -->
+
+    <!-- Start similar item  -->
+    <div class="winter">
+      <div class="container">
+        <h3 class="similar">Similar Items</h3>
+        <div class="boxes">
+          <div class="box">
+            <div class="img">
+              <img src="Imgs/image8.jpg" alt="" />
+            </div>
+            <div class="infor">
+              <h3>Paris Jacket</h3>
+              <h5>$89.99</h5>
+            </div>
+          </div>
+          <div class="box">
+            <div class="img">
+              <img src="Imgs/djacket3.jpg" alt="" />
+            </div>
+            <div class="infor">
+              <h3>Paris Jacket</h3>
+              <h5>$89.99</h5>
+            </div>
+          </div>
+          <div class="box">
+            <div class="img">
+              <img src="Imgs/djacket6.jpg" alt="" />
+            </div>
+            <div class="infor">
+              <h3>Paris Jacket</h3>
+              <h5>$89.99</h5>
+            </div>
+          </div>
+          <div class="box">
+            <div class="img">
+              <img src="Imgs/djacket2.jpg" alt="" />
+            </div>
+            <div class="infor">
+              <h3>Paris Jacket</h3>
+              <h5>$89.99</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End similar item  -->
+
+    <!-- Start Footer -->
+    <div class="footer">
+      <div class="container">
+        <div class="one">
+          <div class="logo">gabooo</div>
+          <p>
+            Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo,
+            lacinia eget consectetur sed, convallis at tellus.
+          </p>
+          <h5>Created by Graphberry,Belgrade,Serbia</h5>
+          <h6>© 2017 - Gabooo.Inc</h6>
+        </div>
+
+        <div class="two">
+          <div class="settings">Links</div>
+          <ul class="links-settings">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Sign</a></li>
+            <li><a href="#">Register</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Terms and Conditions</a></li>
+          </ul>
+        </div>
+
+        <div class="three">
+          <div class="shopping">Shopping</div>
+          <ul class="links-shopping">
+            <li><a href="#">Shopping Cart</a></li>
+            <li><a href="#">Winter</a></li>
+            <li><a href="#">Spring</a></li>
+            <li><a href="#">Summer</a></li>
+            <li><a href="#">Fall</a></li>
+            <li><a href="#">Collection</a></li>
+          </ul>
+        </div>
+
+        <div class="four">
+          <div class="contact">Contact Us</div>
+          <p>
+            Get in touch with us via mail phone.We are waiting for your call or
+            message.
+          </p>
+          <div class="mail">graphberry@gmail.com</div>
+          <div class="icons">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+            <a href="#"><i class="fa-solid fa-basketball"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Footer -->
+
+    <script  src="JS FILES/itemPage.js"></script>
+  </body>
+</html>
