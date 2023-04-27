@@ -163,7 +163,7 @@ function showMoreBoxes() {
     div.appendChild(h5);
 
     div.onclick = () => {
-      window.open("../itemPage.html");
+      window.open("../ItemPage.html");
       console.log();
     };
 
@@ -356,3 +356,22 @@ function DarkMode() {
 }
 
 // -------------------------
+
+// Make the popular divs and winter divs is opening itempage
+let popularDivs = document.querySelectorAll(".popular .container .boxes .box");
+
+let winterDivs  = document.querySelectorAll(".winter .container .boxes .box");
+
+const open = () => {
+  window.open("../ItemPage.html");
+};
+
+popularDivs.forEach((div) => {
+  div.addEventListener("click", open)
+});
+
+winterDivs.forEach((div) => {
+  div.addEventListener("click", open)
+});
+
+
