@@ -1,5 +1,4 @@
 # Gabooo
-Gabooo - Fashion eCommerce 
-<line-break />
+Gabooo - Fashion eCommerce  \n
 Languages Used => HTML CSS JS
 
